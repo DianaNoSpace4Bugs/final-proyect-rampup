@@ -1,0 +1,114 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #4F517D;
+    margin-inline: auto;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    text-emphasis-color: #DCCFEC;
+    font-family: 'Alkatra';
+    font-size: 22px
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #BAA9E2;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+body h1{
+    margin-bottom: 8px;
+    font-family: 'Alkatra';
+    color: darkorchid;
+}
+body h2{
+    margin-top: 0px;
+}
+.element-nav{
+    display: inline;
+    
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    text-emphasis-style: none;
+    list-style: none;
+}
+nav ul li a:hover {
+    color: rgb(205, 172, 228);
+    font-weight: bold;  
+}
+ul{
+    padding: 0%;
+} 
+.my-story-section {
+    max-width: 600px;
+}
+.portfolio-section {
+    display: flex;
+    margin: auto 20px;
+}   
+@media (max-width: 1024px) {
+    .portfolio-section {
+        display: block;
+    }
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #9883D8;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 30px 0;
+    margin-top: 30px;
+    margin-inline: auto;
+    color: antiquewhite;
+    text-decoration: none;
+    text-emphasis-style: none;
+    font-family: 'Alkatra';
+    font-size: 12px;
+    text-align: center;
+}
+footer ul li a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer ul li a:hover{
+    color: rgb(244, 212, 252);
+    font-weight: bold; 
+}
+footer ul{
+    list-style: none;
+}
+.passion-info{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.passion-media{
+    display: flex;
+    flex-direction: column;
+}
+.passion-media img{
+    width: 50%; /* Ancho del 50% para que haya dos columnas en el cuadrado */
+    height: 50%; /* Altura del 50% para que haya dos filas en el cuadrado */
+    box-sizing: border-box; /* Incluye bordes y relleno en las dimensiones especificadas */
+    border: 1px solid #f9c5ea; /* Borde opcional */ 
+    margin: 0 auto;  
+}
+form fieldset input{
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+form fieldset {
+    margin-bottom: 30px;
+}

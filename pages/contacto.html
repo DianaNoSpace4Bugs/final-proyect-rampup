@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="/ProyectoRampUp/assets/guitarra.png" type="image/x-icon">
+    <link rel="stylesheet" href="/ProyectoRampUp/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="element-nav"><a href="../index.html">Home</a></li>
+                <li class="element-nav"><a href="./biografia.html">Biografía</a></li>
+                <li class="element-nav"><a href="./contacto.html">Contacto</a></li>
+                <li class="element-nav"><a href="./portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Contactar para colaboraciones</h1>
+    <form action="/EjerciciosRampUp/Formularios/FormularioCompletadoConExito/index.html">
+        <fieldset>
+            <legend>Datos personales:</legend>
+
+            <label for="nombre">Nombre</label>
+            <input type="texto" id="nombre" name="nombre" placeholder="Introduce tu nombre" autofocus tabindex="1" required>
+
+            <label for="apellido1">Primer apellido</label>
+            <input type="texto" id="apellido1" name="apellido1" placeholder="Introduce tu primer apellido" autofocus tabindex="2" required>
+
+            <label for="apellido2">Segundo apellido</label>
+            <input type="texto" id="apellido2" name="apellido2" placeholder="Introduce tu segundo apellido" autofocus tabindex="3" required>
+
+            <label for="edad">Edad</label>
+            <input type="numero" id="edad" name="edad" placeholder="Introduce tu edad" tabindex="4" required>
+
+            <label for="telefono">Número de contacto</label>
+            <input type="numero" id="telefono" name="telefono" placeholder="Introduce tu teléfono de contacto" maxlength="9" tabindex="5" required>
+
+            <label for="correo">Dirección de correo electrónico</label>
+            <input type="text" id="correo" name="correo" placeholder="Introduce tu correo electrónico" tabindex="6" required>
+
+            <label for="instrumento">Instrumento</label>
+            <select name="instrumento" id="instrumento" tabindex="7">
+                <option value="guitarra">Guitarra</option>
+                <option value="piano">Piano</option>
+                <option value="bateria">Batería</option>
+                <option value="canto">Solo canto</option>
+                <option value="ninguna">Ninguna de las anteriores</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Descripción de la colaboración</legend>
+            <select name="finalidad" id="finalidad" tabindex="10">
+                <option value="espectaculo">Show</option>
+                <option value="disfrute">Disfrute</option>    
+            </select>
+            
+            <textarea name="text-duda" id="text-duda" cols="28" rows="4" placeholder="Describa detalladamente su propuesta"></textarea> 
+        </fieldset>
+        <fieldset>
+            <input class="reset" type="reset" value="Restablecer">
+            <input class="submit" type="submit" value="Enviar">
+        </fieldset>
+    </form> 
+    <footer>
+        <p>2023 Maria Diana Noaghiul Barbulescu. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="https://github.com/DianaNoSpace4Bugs?authuser=0">Cuenta de GitHub</a></li>
+            <li><a href="https://thebridgemulticampus.slack.com/team/U05R5FW7FDL">Perfil de Slack</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
